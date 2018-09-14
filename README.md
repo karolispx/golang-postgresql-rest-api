@@ -17,7 +17,7 @@ You will need to get the following packages to make it work:
 ## Requests:
 1. Get all books - [GET] http://localhost:8000/books/
 2. Create a book - [POST] http://localhost:8000/books/ - (body: 'x-www-form-urlencoded', pass in bookid and bookname)
-3. Delete a book by bookid - [DELETE] http://localhost:8000/books/{bookid} - make sure to use a valid bookid from books dable (bookid not id)
+3. Delete a book by bookid - [DELETE] http://localhost:8000/books/{bookid} - make sure to use a valid bookid from books table (bookid not id)
 4. Delete all books - [DELETE] http://localhost:8000/books/
 
 ## Books table:
